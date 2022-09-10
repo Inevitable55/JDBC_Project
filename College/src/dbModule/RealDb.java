@@ -5,9 +5,9 @@ import java.util.ArrayList;
 
 import javax.security.sasl.RealmCallback;
 public class RealDb {
-	  private String url = "jdbc:mysql://localhost:3306/college";
-	  private String username = "root";
-	  private String password = "1234554321";
+	  private String url = "jdbc:mysql://localhost:/college";  //-----> Add port number
+	  private String username = "";                            //-----> Add Username
+          private String password = "";                            //------> Add Password
 	  Connection conn = null;
 	  Statement stmt = null;
 	  ResultSet rs = null;
